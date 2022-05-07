@@ -13,7 +13,7 @@ print("\033[1;36m"+"  ||   Programada por S3RGI09 (Sergio Casero Verdial) ")
 print("\033[1;35m"+"* IG: s3rgi09__ | GitHub: S3RGI09"+'\033[0;m')
 print("\033[1;34m"+"---------------------------------------------------------------")
 longitud = 18
-valores = "0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ<=>@#%&+"
+valores = "0123456789abcdefghijklmnopqrstuvwxyzñüöäïëçABCDEFGHIJKLMNOPQRSTUVWXYZÑÜÖÄÏËÇ"
 
 p = ""
 p = p.join([choice(valores) for i in range(longitud)])
